@@ -43,7 +43,7 @@ export async function activate(context: ExtensionContext) {
   // Start up Anki Service
   const ankiService = new AnkiService(`${schema}://${hostname}:${port}`);
 
-  const ankiExt = extensions.getExtension("jasew.anki");
+  const ankiExt = extensions.getExtension("wrinkled.anki"); //! This needed to be changed
   const extMeta = ankiExt?.packageJSON;
 
   // Initialize logger
@@ -86,4 +86,4 @@ export async function activate(context: ExtensionContext) {
 }
 
 // this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }

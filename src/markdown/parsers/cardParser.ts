@@ -140,11 +140,12 @@ export class CardParser extends BaseParser {
         match :  // If there is an empty line, return directly
         match.replace(/\\[{}%#&$_\\]/g, str => str === "\\\\" ? "\\\\\\\\" : ("\\" + str))
     );
-    const string = lines.join("\n")
+    let string = lines.join("\n")
       // $$\{1,2\} \%100$$ => $$\\{1,2\\} \\%100$$
       .replace(/(?<!\\)\$\$.+?(?<!\\)\$\$/gs, fixLatex)
       // $\{1,2\} \%100$ => $\\{1,2\\} \\%100$
       .replace(/(?<![\\$])\$(?!\$).+?(?<!\\)\$/gs, fixLatex);
+    string = lines.join("\n").replace("## ", ""); // ! changes
 
     const mdString = await new MdParser({}).parse(string);
     if (!this.options.convertMath) {

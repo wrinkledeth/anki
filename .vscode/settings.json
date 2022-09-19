@@ -21,5 +21,10 @@
     "cSpell.ignoreWords": [
         "initialised",
         "uninitialised"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2F2F0F",
+        "titleBar.activeBackground": "#424214",
+        "titleBar.activeForeground": "#FAFAF1"
+    }
 }
