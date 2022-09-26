@@ -11,6 +11,8 @@ There are two changes:
 
 [Detailed notes on changes](https://github.com/wrinkledeth/anki/blob/main/notes.md)
 
+[Anki to Markdown Helper Script](https://github.com/wrinkledeth/anki/tree/main/scripts)
+
 ## Build Instructions
 
 ```bash
