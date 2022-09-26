@@ -1,0 +1,582 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "99aaedc8-3d19-11ed-9297-001a7dda7113",
+    "deck_config_uuid": "99ab014f-3d19-11ed-99e0-001a7dda7113",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 6,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "99ab014f-3d19-11ed-99e0-001a7dda7113",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 30,
+            "name": "10 Cards (Default)",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 6,
+    "extendRev": 0,
+    "media_files": [
+        "_huwawenkaiti.ttf"
+    ],
+    "name": "All::Hotkeys::vscode",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "css": ".card {\n  font-family: custom;\n  font-size: 30px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n@font-face {\nfont-family: custom;\nsrc: url('_huwawenkaiti.ttf');\n}\n\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (Deckname under card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<br><br>\n<div style='font-family: \"Arial\"; font-size: 16px;'>\n<span id=\"deck\">{{Deck}}</span><script>\ndocument.getElementById(\"deck\").innerHTML=\"{{Deck}}\".split(\"::\").pop();\n</script>\n</div>"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Toggle Sidebar Visibility",
+                "Ctrl + B"
+            ],
+            "guid": "N/ZC?BrW3s",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Focus Pane 1, 2, 3",
+                "Ctrl + 1 / 2 / 3"
+            ],
+            "guid": "jjSNGWt)NR",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Focus Terminal&nbsp;",
+                "Ctrl + `"
+            ],
+            "guid": "zBc@sD2mVq",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Switch Tabs (1, 2, 3)",
+                "Alt + 1 / 2 / 3"
+            ],
+            "guid": "C+E)H!MdOU",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Copy Line (Empty Selection)",
+                "Ctrl + C"
+            ],
+            "guid": "L<xVymDHrJ",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cut Line (Empty Selection)",
+                "Ctrl + X"
+            ],
+            "guid": "Ayb65s4dzD",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Block Travel (custom)",
+                "Ctrl +&nbsp;↑ / ↓"
+            ],
+            "guid": "A[-*TlS~/L",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go to Begining of File <br>Go to End of File",
+                "Ctrl + Home<br>Ctrl + End"
+            ],
+            "guid": "P0@L?5jfir",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Indent / Outdent Line",
+                "Ctrl + ] / ["
+            ],
+            "guid": "D=;>7;63G)",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fold all sub-regions<br>Unfold all sub-regions",
+                "Ctrl + K, Ctrl+[<br>Ctrl + K, Ctrl+]"
+            ],
+            "guid": "s09hrFLZ]t",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jump to line number",
+                "Ctrl + G"
+            ],
+            "guid": "y!D$@6u;?X",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Organize Python Imports",
+                "Alt + shift + o"
+            ],
+            "guid": "Q$lfwtXgW_",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Show Markdown Preview",
+                "Ctrl + Shift + V"
+            ],
+            "guid": "kx&peCH#-B",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Close Tab",
+                "Ctrl + w"
+            ],
+            "guid": "LlZqXyN.t:",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go to Symbol",
+                "Ctrl + Shift + O"
+            ],
+            "guid": "L5PZ8HVc6p",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": [
+                "leech"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Move line up/down",
+                "Alt +&nbsp;↑ / ↓"
+            ],
+            "guid": "c#PR@^?q%j",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Copy Line up / down",
+                "Alt + Shift +&nbsp;↑ / ↓"
+            ],
+            "guid": "GnEvAr73,x",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Insert Line Below",
+                "Ctrl + Enter"
+            ],
+            "guid": "t|@1!Y_YKC",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go to beginning / end of line",
+                "Home / End"
+            ],
+            "guid": "FN,1U[;2W<",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Find<br>Replace",
+                "Ctrl + F<br>Ctrl + H"
+            ],
+            "guid": "yLF(}]u55c",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go to definition&nbsp;",
+                "F12"
+            ],
+            "guid": "uO@jw*T;t_",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Find all occurances of a string in folder (show search)",
+                "ctrl + shift + f"
+            ],
+            "guid": "mZfAG.}s;X",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Next Tab / Prev Tab",
+                "Ctrl + PgUp<br>Ctrl + PgDown"
+            ],
+            "guid": "nI2)t%4Vn",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fold all<br>Unfold all",
+                "Ctrl+K, Ctrl+0<br>Ctrl+K, Ctrl+J"
+            ],
+            "guid": "Q3ZJ=bMv@z",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Select current line",
+                "Ctrl + L"
+            ],
+            "guid": "OO?L~tJLn$",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tab forwards and backwards (in menu)",
+                "Ctrl + Tab (forward)<br>Ctrl + Shift + Tab (backwards)"
+            ],
+            "guid": "c~8TS{UlC.",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Open Settings",
+                "Ctrl + ,"
+            ],
+            "guid": "y,!/b+C[0#",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Navigate Function Outline",
+                "Ctrl + Shift + ."
+            ],
+            "guid": "NRD-Z~mbX6",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zen Mode (and exit)",
+                "Ctrl + K Z (esc esc)"
+            ],
+            "guid": "L}v?eZx`X2",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Format Document",
+                "Alt + Shift + F"
+            ],
+            "guid": "y2W^fyw--9",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Insert Cursor Above / Below",
+                "Ctrl + Alt +&nbsp;↑ ↓"
+            ],
+            "guid": "MgqPP?=3-?",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Undo last cursor operation",
+                "Ctrl + U"
+            ],
+            "guid": "MEEp4]<3Nn",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Insert Cursor at end of each line selected&nbsp;",
+                "Alt + Shift + i"
+            ],
+            "guid": "v&RGSwN8;M",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Open Markdown Preview to the side",
+                "Ctrl + k , v"
+            ],
+            "guid": "x/qTG(P0Q9",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Search Files by Name",
+                "ctrl + p"
+            ],
+            "guid": "pyWhO06Hz5",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Select Current Word (or next occurance of the current selection)",
+                "Ctrl + D"
+            ],
+            "guid": "MwS@<aqYJq",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: Select each occurrence of the current selected text",
+                "Ctrl + Shift + L"
+            ],
+            "guid": "If0[+~y5mO",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rename Symbol",
+                "F2"
+            ],
+            "guid": "AkY)HBo.,)",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Markdown: Paste link on selected text",
+                "Ct + D (select word)<div>Ctrl + L (select line)<br>Ctrl + V (markdown all in one feature)</div>"
+            ],
+            "guid": "9rQX?WYp",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Open File Explorer (sidebar)",
+                "Ctrl + Shift + E"
+            ],
+            "guid": "zV9)UW;~rB",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Split current tab Right",
+                "Ctrl + Alt + Right&nbsp;<br><br>(put it back with Left)"
+            ],
+            "guid": "t/UlQL>Pdy",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MC: cursor column select up / down",
+                "ctrl+alt+shift+ up/down"
+            ],
+            "guid": "xDNEA1z7=1",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Go to definition on the side (split right)",
+                "Ctrl+K F12"
+            ],
+            "guid": "Pd5jonL(M0",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>Go to references (function refence pop-up)</div><div>Find all references (shown in sidebar)</div></div>",
+                "<div><div>Shift + F12</div><div>Shift + Alt + F12</div></div>"
+            ],
+            "guid": "u82;WemxoM",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Split terminal&nbsp;",
+                "Ctrl + shift + 5"
+            ],
+            "guid": "h?I!RmuPim",
+            "note_model_uuid": "99ab9d8e-3d19-11ed-adec-001a7dda7113",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
