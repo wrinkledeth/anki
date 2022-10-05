@@ -13,6 +13,12 @@ There are two changes:
 
 [Anki to Markdown Helper Script](https://github.com/wrinkledeth/anki/tree/main/scripts)
 
+Install Extension to Vscode from CLI
+
+```bash
+code --install-extension anki-1.2.8.vsix
+```
+
 ## Build Instructions
 
 ```bash
