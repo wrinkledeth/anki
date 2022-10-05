@@ -32,16 +32,18 @@ with open("./deck.json", "r") as json_file:
 all_decks = deck.get("children")
 for folder in all_decks:
     category_name = folder.get("name")
-    if category_name == "Mandarin":
+    if category_name == "Mandarin":  # skip this category
         continue
-    print(f"# {category_name}")
+    print(f"{category_name}")
     for deck in folder.get("children"):
         deck_name = deck.get("name")
-        print(f"## {deck_name}")
+        if deck_name == "guitar intervals":  # skip this deck
+            continue
+        print(f"   {deck_name}")
         notes = deck.get("notes")
         target_path = f"./All/{category_name}/{deck_name}"
         create_folder(target_path)
-        with open(f"./All/{category_name}/{deck_name}/{deck_name}.md", "w") as md_file:
+        with open(f"{target_path}/{deck_name}.md", "w") as md_file:
             for card in notes:
                 front = card["fields"][0]
                 back = card["fields"][1]
